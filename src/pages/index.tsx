@@ -8,11 +8,11 @@ import { Header } from '../components/header'
 import BigCountdown from '../components/ido/BigCountdown'
 import CardBase from '../components/ido/CardBase'
 import PoolCard from '../components/ido/PoolCard'
+import SecPopup from '../components/SecPopup'
 import { IDO_STARTS } from '../config/constants'
 import { useIDO } from '../hooks/useIDO'
 import { useRefresh } from '../hooks/useRefresh'
 import useWalletStore from '../stores/useWalletStore'
-import SecPopup from '../components/SecPopup'
 
 const Main = () => {
   const pools = useWalletStore((s) => s.pools)
@@ -65,9 +65,8 @@ const Page: React.FC = () => {
           src={'/images/bg/ido_header.png'}
         />
         <img
-          className="max-w-none block sm:hidden mt:5rem"
-          width={375}
-          height={415}
+          className="max-w-none block sm:hidden mt:5rem object-cover object-top"
+          width={'100%'}
           src={'/images/bg/ido_header.png'}
         />
       </div>

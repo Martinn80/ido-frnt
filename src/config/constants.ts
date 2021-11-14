@@ -32,11 +32,11 @@ export const RPC_ENDPOINTS: WalletEndpoint[] = [
     rpcURL: 'https://api.mainnet-beta.solana.com',
     rpcName: 'Custom RPC',
     commitment: 'processed' as web3.Commitment,
-  }
+  },
 ]
 
 export const IDO_RESULTS = {
-  '9MVRpLe86ssuqjfv1KakKz6mt4ndZsnv5g7og2PSq6zh': {}
+  '9MVRpLe86ssuqjfv1KakKz6mt4ndZsnv5g7og2PSq6zh': {},
 }
 
 export const IDO_ENDPOINTS = [
@@ -44,10 +44,8 @@ export const IDO_ENDPOINTS = [
     network: 'mainnet-beta' as web3.Cluster,
     programId: 'BA1EoUw16zzKEq4HiGzthphLMNnKEnL17QYabAmTXocX',
     usdcMint: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
-    pools: [
-      '9MVRpLe86ssuqjfv1KakKz6mt4ndZsnv5g7og2PSq6zh'
-    ],
-  }
+    pools: ['9MVRpLe86ssuqjfv1KakKz6mt4ndZsnv5g7og2PSq6zh'],
+  },
   // {
   //   network: 'devnet' as web3.Cluster,
   //   programId: '7EYV5r3K4efZXrPynWzidc5KTFTKjCtaQcpLV998zniF',
@@ -58,12 +56,11 @@ export const IDO_ENDPOINTS = [
   // },
 ]
 
-let defaultNode = undefined
+const defaultNode = undefined
 
 export const DEFAULT_RPC = RPC_ENDPOINTS.find((i) => {
   const r = i.id === `mainnet-1`
   return r
 })
-
 
 export const RANDOM_DEFAULT_RPC_INDEXES = [0, 1]

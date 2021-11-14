@@ -6,7 +6,7 @@ export const Logo: React.FC = () => {
       <div className="select-none hidden dark:block">
         <img
           src="/icons/logo.png"
-          alt="Aurory"
+          alt="Final-Frontier"
           width="50"
           height="50"
         />
@@ -14,7 +14,7 @@ export const Logo: React.FC = () => {
       <div className="select-none dark:hidden">
         <img
           src="/icons/logo.png"
-          alt="Aurory"
+          alt="Final-Frontier"
           width="50"
           height="50"
         />
