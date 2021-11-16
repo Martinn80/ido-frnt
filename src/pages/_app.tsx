@@ -16,10 +16,10 @@ BigNumber.config({
 })
 
 function MyApp({ Component, pageProps }) {
-  const title = 'Aurory IDO'
+  const title = 'Final-Frontier IDO'
   const description =
-    'This is the IDO (initial DEX offering) page for Aurory, a P2E game on Solana!'
-  const keywords = 'Aurory, AURY, IDO, P2E, Solana, play2earn'
+    'This is the IDO (initial DEX offering) page for Final-Frontier, a P2E game on Solana!'
+  const keywords = 'Final-Frontier, FRNT, IDO, P2E, Solana, play2earn'
   const baseUrl = 'https://ido.aurory.io'
 
   return (
