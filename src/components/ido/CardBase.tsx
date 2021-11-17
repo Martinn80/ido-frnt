@@ -19,7 +19,7 @@ const CardBase: React.FC<CardBaseProps> = ({
   return (
     <div
       className={classNames(
-        'bg-white w-full max-w-card rounded-3xl shadow-card overflow-hidden relative border-r-4 border-b-4 border-brandPrimary',
+        'bg-white w-full max-w-card rounded-3xl shadow-card overflow-hidden relative border-r-2 border-b-2 border-brandPrimary',
         className
       )}
     >

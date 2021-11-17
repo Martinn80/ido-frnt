@@ -7,7 +7,7 @@ const SecPopup = ({ popupCallback }) => {
       <div className="h-screen ml-auto mr-auto max-w-4xl pb-8 pl-4 pr-4 flex flex-col w-full h-full justify-center items-center">
         <h1 className="text-center text-lg font-extrabold">Terms of Use</h1>
         <p className="text-center mt-8">
-          By using this website and investing in the <b>AURY</b> token, you will
+          By using this website and investing in the <b>FRNT</b> token, you will
           be deemed to have: <br /> <br />
           (I) read the{' '}
           <a
@@ -23,7 +23,7 @@ const SecPopup = ({ popupCallback }) => {
             href="https://app.aurory.io/litepaper"
             target="_blank"
           >
-            Aurory litepaper
+            Final Frontier litepaper
           </a>{' '}
           and other informational materials about the{' '}
           <a
@@ -36,7 +36,7 @@ const SecPopup = ({ popupCallback }) => {
           </a>
           . <br />
           (II) confirmed that you are not based in a jurisdiction where buying,
-          trading and/or owning the AURY token would be prohibited or restricted
+          trading and/or owning the FRNT token would be prohibited or restricted
           in any manner. <br />
           (III) understood that, despite our best efforts, there can still be
           exploit risks that exist within the app. (Please do not invest more
