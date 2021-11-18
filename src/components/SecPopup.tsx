@@ -20,7 +20,7 @@ const SecPopup = ({ popupCallback }) => {
           <a
             className="text-inputSecondary"
             rel="noreferrer"
-            href="https://app.aurory.io/litepaper"
+            href="https://drive.google.com/file/d/1yGmzKwr7nkJ40l3fY-59GYkVGrMrzZTh/view"
             target="_blank"
           >
             Final Frontier litepaper
@@ -29,7 +29,7 @@ const SecPopup = ({ popupCallback }) => {
           <a
             className="text-inputSecondary"
             rel="noreferrer"
-            href="https://auroryproject.medium.com/aurory-project-ido-3a38b5518fa1"
+            href="https://medium.com/@FinalFrontierSA/frnt-seed-round-announcement-9429fc486cb3"
             target="_blank"
           >
             operation of this IDO
