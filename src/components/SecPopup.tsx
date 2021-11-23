@@ -23,7 +23,7 @@ const SecPopup = ({ popupCallback }) => {
             href="https://drive.google.com/file/d/1yGmzKwr7nkJ40l3fY-59GYkVGrMrzZTh/view"
             target="_blank"
           >
-            Final Frontier litepaper
+            Final Frontier Whitepaper
           </a>{' '}
           and other informational materials about the{' '}
           <a
@@ -68,7 +68,7 @@ const SecPopup = ({ popupCallback }) => {
         said tokens, the value of the tokens acquired in the offering and the
         exchange value of said tokens in legal currency. Tokens do not
         constitute financial instruments or securities tokens and confer no
-        other right than those described in the litepaper. In addition, the
+        other right than those described in the Whitepaper. In addition, the
         regulatory framework applicable to the offering and to the tokens as
         well as the tax regime applicable to the holding of tokens are not
         defined to date in certain jurisdictions. Please consult your local tax

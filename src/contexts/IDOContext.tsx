@@ -31,7 +31,7 @@ export const IDOProvider = ({ children }) => {
       setWalletStore((state) => {
         state.connected = true
       })
-      // refetch pool and set provider with new waller
+      // refetch pool and set provider with new wallet
       actions.fetchPools().catch((e) => {
         notify({
           type: 'error',
