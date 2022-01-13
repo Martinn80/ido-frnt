@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
   const description =
     'This is the IDO (initial DEX offering) page for Final-Frontier, a P2E game on Solana!'
   const keywords = 'Final-Frontier, FRNT, IDO, P2E, Solana, play2earn'
-  const baseUrl = 'https://ido.aurory.io'
+  const baseUrl = 'https://finalfrontierido.netlify.app'
 
   return (
     <>
@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:description" content={description} />
         <meta property="og:image" content={`${baseUrl}/images/logo.png`} />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@auroryproject" />
+        <meta name="twitter:site" content="@finalfrontierSA" />
       </Head>
       <ThemeProvider defaultTheme="dark" attribute="class">
         <Ido Component={Component} pageProps={pageProps} />

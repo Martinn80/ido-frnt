@@ -92,7 +92,7 @@ const StatsCard: React.FC<StatsCardProps> = ({
           />
           <NumberText
             className="font-bold text-mdx"
-            value={vaultUsdcBalance}
+            value={vaultUsdcBalance} //USDC VALUE
             defaultIfNull="N/A"
           />
         </div>
@@ -109,7 +109,7 @@ const StatsCard: React.FC<StatsCardProps> = ({
           />
           <NumberText
             className="font-bold text-mdx"
-            value={estimatedPrice}
+            value={estimatedPrice} // ESTIMATED PRICE
             defaultIfNull="N/A"
             displayDecimals={6}
           />
@@ -125,7 +125,7 @@ const StatsCard: React.FC<StatsCardProps> = ({
           />
           <NumberText
             className="font-bold text-mdx"
-            value={vaultPrtBalance}
+            value={vaultPrtBalance} // TOTAL
             defaultIfNull="N/A"
           />
         </div>

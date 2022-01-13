@@ -33,25 +33,32 @@ export const RPC_ENDPOINTS: WalletEndpoint[] = [
     rpcName: 'Custom RPC',
     commitment: 'processed' as web3.Commitment,
   },
+  // {
+  //   id: 'dev',
+  //   network: 'devnet' as web3.Cluster,
+  //   rpcURL: 'https://api.devnet.solana.com',
+  //   rpcName: 'Devnet RPC',
+  //   commitment: 'processed' as web3.Commitment,
+  // },
 ]
 
 export const IDO_RESULTS = {
-  '9MVRpLe86ssuqjfv1KakKz6mt4ndZsnv5g7og2PSq6zh': {},
+  'Adh2XopZ6boGccwNLcUJa9tqjEp6iH6D4wxk7TNcbvaT': {},
 }
 
 export const IDO_ENDPOINTS = [
   {
     network: 'mainnet-beta' as web3.Cluster,
-    programId: 'BA1EoUw16zzKEq4HiGzthphLMNnKEnL17QYabAmTXocX',
+    programId: 'Fh2t1QqYqbpp6A51dhNBKkByKo6hfZSAzMJXTZSRhsWi',
     usdcMint: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
-    pools: ['9MVRpLe86ssuqjfv1KakKz6mt4ndZsnv5g7og2PSq6zh'],
+    pools: ['Adh2XopZ6boGccwNLcUJa9tqjEp6iH6D4wxk7TNcbvaT'],
   },
   // {
   //   network: 'devnet' as web3.Cluster,
-  //   programId: '7EYV5r3K4efZXrPynWzidc5KTFTKjCtaQcpLV998zniF',
-  //   usdcMint: '7GMQXhBQFmsbZs5P6g8SBdpfLJggwgLtydXtRWLtH2vU',
+  //   programId: 'BwneGSVf5yk6ZHKPABuEbrDPGfgkeHyT4GH2hSZqVM8t',
+  //   usdcMint: '9J6RFJQ3VGj216scddD4w6aBcpGy8oxxcwng8StKoNEt',
   //   pools: [
-  //     'J1nASk9aWGe9cnUCm3MS5hFmsZC8tuSn7DjZAHPRSQBb'
+  //     'DQRdatV3UUcVvW5ZUpi8tSm6vzJfqVFvVZGjmapANKU9'
   //   ],
   // },
 ]
